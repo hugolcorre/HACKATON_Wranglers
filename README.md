@@ -54,7 +54,7 @@ Pre-Processing included:
 
 ### Exploratory Data Analysis
 
-*EDA.ipynb: Using the cleaned data from processing.ipynb, exploratory data analysis to give insights on the data 
+* EDA.ipynb: Using the cleaned data from processing.ipynb, exploratory data analysis to give insights on the data 
 
 ### Modeling
 
