@@ -16,7 +16,7 @@ The goal of the project is to accurately forecast waiting times of rides at Port
 * No Large Investment
 
 
-## :construction: Project Structure 
+## :open_file_folder: Project Structure 
 
 
 ### Data Preparation
@@ -68,3 +68,6 @@ Pre-Processing included:
 
 
 ## :rocket: Getting Started
+
+
+## :construction: Improvements
