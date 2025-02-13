@@ -34,23 +34,12 @@ The data used for this project is stored in a zip file named 'final_data.7z' and
 
 #### 2. Data Cleaning
 
-* processing.ipynb
-
-Data cleaning included:
-* Converting the date to the appropriate format
-* Droping NA values
-* Filtering the data by Port Aventura Park
-* Dropping unecessary columns
+* processing.ipynb : Data Cleaning & Pre-Processing
 
 
 #### 3. Merging and Data Pre-Processing
 
-* merging_covid_EDA.ipynb: Merging table with all the attributes from the different data sources
-
-Pre-Processing included:
-* Dropping the COVID period
-* Dealing with the closing schedule of the park
-* Duplicating data to match a 15 minutes interval
+* merging_covid_EDA.ipynb: Merging table with all the attributes from the different data sources, matching a 15 minutes interval
 
 
 ### Exploratory Data Analysis
