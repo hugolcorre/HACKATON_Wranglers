@@ -53,8 +53,7 @@ The data used for this project is stored in a zip file named 'final_data.7z' and
 
 #### 1. Predicting Attendance
 
-The attendance forecast model is contained in **model_attendance.ipynb**, and compares the performances of a Machine Learning model and a Time Series model.
-Performances are evaluated with the Mean Average Error and the Root Mean Squared Error. We found that the Exponential Smoothing Time Series model was the best performer of all models tried. 
+* **model_attendance.ipynb**: Attendance forecast model that compares the performances of a Machine Learning model and a Time Series model. Performances are evaluated with the Mean Average Error and the Root Mean Squared Error. We found that the Exponential Smoothing Time Series model was the best performer of all models tried. 
 
 #### 2. Predicting Waiting Times
 
@@ -81,6 +80,6 @@ The application is accessible by running **myapp.py**.
 
 ## :construction: Future Improvements
 
-* Improvement 1
-* Improvement 2
-* Improvement 3
+* Improve simulation to better simulate direction of visitors across attractions waiting lines and the system of winning fast passes.
+* Enhance user interface of the Streamlit app.
+* Launch the **Win the Fast Pass** application for the visitors.
