@@ -57,7 +57,7 @@ The data used for this project is stored in a zip file named 'final_data.7z' and
 
 #### 2. Predicting Waiting Times
 
-* **wait_time_forecast.ipynb**: Waiting time forecast model *[...]*
+* **wait_time_forecast.ipynb**: Notebook that explores different types of Machine Learning models to forecast waiting times per ride and hour. The models tested use time data (such as dates and hours encoded using cyclical encoding), weather data, parade schedules data (boolean), covid period (boolean), and ride name (one-hot encoded). We evaluated our models using R-squared and Root Mean Squared Error (RMSE). We first tested an XGBRegressor model with tuned hyperparameters (RandomizedSearchCV). We also tested doing a model per ride for the models to be fitted to each specific ride, and store each specific model in a dictionnary. The latter option had the best performance.
 
 
 ### Dashboard Visualization
