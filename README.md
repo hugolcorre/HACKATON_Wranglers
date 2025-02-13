@@ -1,14 +1,14 @@
 # ELEVEN STRATEGY X CentraleSupélec | The Endless Line 
 
 
-## Team
+## :mega: Team
 
 Groupe 3
 
 Léo BLANC, Juliette LACROIX, Hugo LE CORRE, Philippe MIRANDA-JEAN, Théo ROSSI, Elizaveta VASILEVA
 
 
-## Overview
+## :dart: Project Overview
 
 The goal of the project is to accurately forecast waiting times of rides at PortAventura Park to improve customer satisfaction. Our team followed a rigorous methodology that includes data preprocessing, exploratory data analysis, modeling, forecasting and dashboard visualization, to ensure our recommendations would accomplish our objective:
 * Reduce Waiting Time
@@ -16,7 +16,7 @@ The goal of the project is to accurately forecast waiting times of rides at Port
 * No Large Investment
 
 
-## Project Structure 
+## :construction: Project Structure 
 
 
 ### Data Preparation
@@ -65,3 +65,6 @@ Pre-Processing included:
 
 
 ### Dashboard Visualization
+
+
+## :rocket: Getting Started
