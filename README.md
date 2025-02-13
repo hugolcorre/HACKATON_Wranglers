@@ -46,13 +46,10 @@ The data used for this project is stored in a zip file named 'final_data.7z' and
 
 * **EDA.ipynb**: Using the cleaned data from processing.ipynb, exploratory data analysis to give insights on the data 
 
+
 ### Modeling
 
-Now that we have our data ready, we have created a file to merge the documents required to perform our forecasts. 
 
-First, make sure your files are in local, most importantly the final_data.7z that will contains all data files. 
-
-Then run the notebook data_pp_merge to get all necessary csv files to run the models
 
 #### 1. Predicting Attendance
 
