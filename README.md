@@ -58,9 +58,9 @@ Pre-Processing included:
 
 ### Modeling
 
-#### 1. Model Creation
+#### 1. Predicting Attendance
 
-#### 2. Model Selection
+#### 2. Predicting Waiting Times
 
 
 ### Dashboard Visualization
