@@ -65,15 +65,11 @@ The application is accessible by running **myapp.py**.
 
 ## :rocket: Getting Started
 
-#### 1. Install the required dependencies: ```requirements.txt```
-
-#### 2. Download locally the data: ```final_data.7z```
-
-#### 3. Navigate through data analysis: ```EDA.ipynb```
-
-#### 4. Run the model: ```model_attendance.ipynb```
-
-#### 5. Run the dashboard application: ```myapp.py```
+* Install the required dependencies: ```requirements.txt```
+* Download locally the data: ```final_data.7z```
+* Navigate through data analysis: ```EDA.ipynb```
+* Run the model: ```model_attendance.ipynb```
+* Run the dashboard application: ```myapp.py```
 
 ## :construction: Future Improvements
 
