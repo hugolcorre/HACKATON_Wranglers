@@ -57,7 +57,7 @@ The data used for this project is stored in a zip file named 'final_data.7z' and
 
 #### 2. Predicting Waiting Times
 
-
+* **wait_time_forecast.ipynb**: Waiting time forecast model *[...]*
 
 
 ### Dashboard Visualization
