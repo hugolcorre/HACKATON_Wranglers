@@ -23,7 +23,7 @@ The goal of the project is to accurately forecast waiting times of rides at Port
 
 #### 1. Data Overview
 
-The data used for this project is store in a zip file named 'final_data.7z' and contains:
+The data used for this project is stored in a zip file named 'final_data.7z' and contains:
 * attendance.csv
 * entity_schedule.csv
 * link_attraction_park.csv
@@ -39,6 +39,7 @@ The data used for this project is store in a zip file named 'final_data.7z' and 
 Data cleaning included:
 * Converting the date to the appropriate format
 * Droping NA values
+* Filtering the data by Port Aventura Park
 * Dropping unecessary columns
 
 
