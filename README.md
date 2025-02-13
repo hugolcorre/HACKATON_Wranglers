@@ -72,7 +72,7 @@ The application is accessible by running **myapp.py**.
 
 ## :rocket: Getting Started
 
-* To reproduce the files created for our app, you can run the following notebooks, in this order:
+* To reproduce the files created for our app (currently located in the streamlit_app_final repo for easy access), you can run the following notebooks, in this order (beware this can take time):
   - data_pp_merge.ipynb
   - model_attendance.ipynb
   - future_data.ipynb
@@ -80,9 +80,18 @@ The application is accessible by running **myapp.py**.
   - people_inside_line.ipynb
 
 To run the app, you should:
-* Create a virtual environment
+* Clone this repository
 
-```pipenv shell```
+```git clone https://github.com/hugolcorre/HACKATON_Wranglers.git```
+
+* Navigate to the repository of the app (inside this repository):
+
+```cd streamlit_app_final```
+
+* Create a virtual environment and activate it:
+
+```python3 -m venv env```
+```source env/bin/activate```
 
 * Install requirements
 
@@ -90,7 +99,7 @@ To run the app, you should:
 
 * Launch the app
 
-```streamlit run Home.py```
+```streamlit run app.py```
   
 
 ## :construction: Future Improvements
