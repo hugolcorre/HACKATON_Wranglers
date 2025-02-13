@@ -23,7 +23,7 @@ The goal of the project is to accurately forecast waiting times of rides at Port
 
 #### 1. Data Overview
 
-The data used for this project is stored in a zip file named **final_data.7z** and contains:
+The data used for this project is stored in a zip file named 'final_data.7z' and contains:
 * attendance.csv
 * entity_schedule.csv
 * link_attraction_park.csv
@@ -34,23 +34,34 @@ The data used for this project is stored in a zip file named **final_data.7z** a
 
 #### 2. Data Cleaning
 
-* processing.ipynb : Data Cleaning & Pre-Processing
+* **processing.ipynb** : Data Cleaning & Pre-Processing
 
 
 #### 3. Merging and Data Pre-Processing
 
-* merging_covid_EDA.ipynb: Merging table with all the attributes from the different data sources, matching a 15 minutes interval
+* **merging_covid_EDA.ipynb**: Merging table with all the attributes from the different data sources, matching a 15 minutes interval
 
 
 ### Exploratory Data Analysis
 
-* EDA.ipynb: Using the cleaned data from processing.ipynb, exploratory data analysis to give insights on the data 
+* **EDA.ipynb**: Using the cleaned data from processing.ipynb, exploratory data analysis to give insights on the data 
 
 ### Modeling
 
+Now that we have our data ready, we have created a file to merge the documents required to perform our forecasts. 
+
+First, make sure your files are in local, most importantly the final_data.7z that will contains all data files. 
+
+Then run the notebook data_pp_merge to get all necessary csv files to run the models
+
 #### 1. Predicting Attendance
 
+The attendance forecast model is contained in **model_attendance.ipynb**, and compares the performances of a Machine Learning model and a Time Series model.
+Performances are evaluated with the Mean Average Error and the Root Mean Squared Error. We found that the Exponential Smoothing Time Series model was the best performer of all models tried. 
+
 #### 2. Predicting Waiting Times
+
+
 
 
 ### Dashboard Visualization
