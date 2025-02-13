@@ -23,7 +23,7 @@ The goal of the project is to accurately forecast waiting times of rides at Port
 
 #### 1. Data Overview
 
-The data used for this project is stored in a zip file named 'final_data.7z' and contains:
+The data used for this project is stored in a zip file named **final_data.7z** and contains:
 * attendance.csv
 * entity_schedule.csv
 * link_attraction_park.csv
@@ -55,8 +55,15 @@ The data used for this project is stored in a zip file named 'final_data.7z' and
 
 ### Dashboard Visualization
 
+An interactive and user-friendly dashboard application to visualize and gather insights on predictions at PortAventura Park. Allows the user to:
+* Get information on predicted attendance for a specific day
+* Get information on predicted waiting times for each rides
+* Visualize impact of BIG Strategy
+
+The application is accessible by running **myapp.py**. 
+
 
 ## :rocket: Getting Started
 
 
-## :construction: Improvements
+## :construction: Future Improvements
