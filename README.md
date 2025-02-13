@@ -72,11 +72,26 @@ The application is accessible by running **myapp.py**.
 
 ## :rocket: Getting Started
 
-* Install the required dependencies: ```requirements.txt```
-* Download locally the data: ```final_data.7z```
-* Navigate through data analysis: ```EDA.ipynb```
-* Run the model: ```model_attendance.ipynb```
-* Run the dashboard application: ```myapp.py```
+* To reproduce the files created for our app, you can run the following notebooks, in this order:
+  - data_pp_merge.ipynb
+  - model_attendance.ipynb
+  - future_data.ipynb
+  - wait_time_forecast.ipynb
+  - people_inside_line.ipynb
+
+To run the app, you should:
+* Create a virtual environment
+
+```pipenv shell```
+
+* Install requirements
+
+```pip install -r requirements.txt```
+
+* Launch the app
+
+```streamlit run Home.py```
+  
 
 ## :construction: Future Improvements
 
