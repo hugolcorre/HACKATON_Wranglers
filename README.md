@@ -3,7 +3,7 @@
 
 ## :mega: Team
 
-Groupe 3
+Group 3
 
 Léo BLANC, Juliette LACROIX, Hugo LE CORRE, Philippe MIRANDA-JEAN, Théo ROSSI, Elizaveta VASILEVA
 
